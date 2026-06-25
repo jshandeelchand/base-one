@@ -91,15 +91,29 @@ footer {
             padding: 0 1.5rem;
         }
 
-        .welcome-section {
-            margin-bottom: 3rem;
-        }
+        /* --- Centralised Welcome Callout Box --- */
+.welcome-section {
+    background-color: #fff1e6; /* A soft, warm pastel cream/orange that matches your banner */
+    border: 1px solid #f3d4be; /* Subtle matching border */
+    border-radius: 16px;       /* Keeps the curved, smooth "box" look */
+    padding: 2rem;             /* Generous breathing room for the text inside */
+    margin: 0 auto 3rem auto;  /* The "auto" parts automatically center the box on the page */
+    max-width: 700px;          /* Restricts the width so sentences don't stretch too long */
+    text-align: center;        /* Centers all the text lines neatly inside the box */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02); /* Extremely soft shadow */
+}
 
-        .welcome-section h2 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-top: 0;
-        }
+/* Optional: Make the greeting pop a bit more */
+.welcome-section h2 {
+    color: #b45309; /* A deep amber/brown that reads clearly on the cream background */
+    margin-top: 0;   /* Removes accidental top spacing */
+    font-size: 1.6rem;
+}
+
+.welcome-section p {
+    margin-bottom: 0; /* Cleans up spacing at the bottom of the box */
+    color: #1e293b;
+}
 
         .section-title {
             font-size: 0.875rem;
